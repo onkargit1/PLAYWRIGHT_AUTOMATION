@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="12.841065">
+<testsuite name="pomtest.spec.js" timestamp="2024-04-15T13:05:35.018Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.73" errors="0">
+<testcase name="test login" classname="pomtest.spec.js" time="9.73">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\pomtest-test-login-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
