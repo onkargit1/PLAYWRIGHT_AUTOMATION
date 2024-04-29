@@ -10,9 +10,7 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {
-      "actualWorkers": 1
-    },
+    "metadata": {},
     "preserveOutput": "always",
     "reporter": [
       [
@@ -94,105 +92,31 @@
     "workers": 2,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "flipkartlist.spec.js",
-      "file": "flipkartlist.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "find the list item",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 14130,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "14\n"
-                    },
-                    {
-                      "text": "Audio\n"
-                    },
-                    {
-                      "text": "Electronics GST Store\n"
-                    },
-                    {
-                      "text": "Cameras & Accessories\n"
-                    },
-                    {
-                      "text": "Computer Peripherals\n"
-                    },
-                    {
-                      "text": "Gaming\n"
-                    },
-                    {
-                      "text": "Health & Personal Care\n"
-                    },
-                    {
-                      "text": "Laptop Accessories\n"
-                    },
-                    {
-                      "text": "Laptop and Desktop\n"
-                    },
-                    {
-                      "text": "MobileAccessory\n"
-                    },
-                    {
-                      "text": "Powerbank\n"
-                    },
-                    {
-                      "text": "Smart Home automation\n"
-                    },
-                    {
-                      "text": "Smart Wearables\n"
-                    },
-                    {
-                      "text": "Storage\n"
-                    },
-                    {
-                      "text": "Tablets\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-04-28T12:46:32.074Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Pune\\Playwright\\playwright_Automation\\test-results\\flipkartlist-find-the-list-item-chromium\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b08bac723e8f8e1534e-f5ac240c7e10f22fb3f0",
-          "file": "flipkartlist.spec.js",
-          "line": 4,
-          "column": 5
-        }
-      ]
+      "message": "Error: duplicate test title \"data driven test2 › create users undefined\", first declared in data-driven1.spec.js:9",
+      "location": {
+        "file": "D:\\Pune\\Playwright\\playwright_Automation\\tests\\data-driven1.spec.js",
+        "line": 9,
+        "column": 10
+      },
+      "snippet": "\u001b[90m   at \u001b[39mdata-driven1.spec.js:9\n\n\u001b[0m \u001b[90m  7 |\u001b[39m    users_data\u001b[33m.\u001b[39mforEach(data \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m         \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m      test(\u001b[32m`create users ${data[0]}`\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m({ page }) \u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/webtables\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'DEMOQA'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: duplicate test title \"data driven test2 › create users undefined\", first declared in data-driven1.spec.js:9",
+      "location": {
+        "file": "D:\\Pune\\Playwright\\playwright_Automation\\tests\\data-driven1.spec.js",
+        "line": 9,
+        "column": 10
+      },
+      "snippet": "\u001b[90m   at \u001b[39mdata-driven1.spec.js:9\n\n\u001b[0m \u001b[90m  7 |\u001b[39m    users_data\u001b[33m.\u001b[39mforEach(data \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m         \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m      test(\u001b[32m`create users ${data[0]}`\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m({ page }) \u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/webtables\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'DEMOQA'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
     }
   ],
-  "errors": [],
   "stats": {
-    "startTime": "2024-04-28T12:46:30.743Z",
-    "duration": 17314.831,
-    "expected": 1,
+    "startTime": "2024-04-29T09:08:45.437Z",
+    "duration": 507.0240000000001,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

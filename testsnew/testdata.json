@@ -1,0 +1,26 @@
+[
+    {
+        "FirstName":"First1",
+        "LastName": "Last1",
+        "EmailAddress":"test1@test.com",
+        "Age":"25",
+        "Salary":"32693",
+        "Deprt": "Eng"
+    },
+    {
+        "FirstName":"First2",
+        "LastName": "Last2",
+        "EmailAddress":"test2@test.com",
+        "Age":"28",
+        "Salary":"32693",
+        "Deprt": "Eng"
+    },
+    {
+        "FirstName":"First3",
+        "LastName": "Last3",
+        "EmailAddress":"test3@test.com",
+        "Age":"26",
+        "Salary":"32693",
+        "Deprt": "Eng"
+    }
+]
