@@ -1,9 +1,24 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="12.841065">
-<testsuite name="pomtest.spec.js" timestamp="2024-04-15T13:05:35.018Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.73" errors="0">
-<testcase name="test login" classname="pomtest.spec.js" time="9.73">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="17.217018">
+<testsuite name="flipkartlist.spec.js" timestamp="2024-04-28T12:46:30.958Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.13" errors="0">
+<testcase name="find the list item" classname="flipkartlist.spec.js" time="14.13">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\pomtest-test-login-chromium\test-finished-1.png]]
+<![CDATA[14
+Audio
+Electronics GST Store
+Cameras & Accessories
+Computer Peripherals
+Gaming
+Health & Personal Care
+Laptop Accessories
+Laptop and Desktop
+MobileAccessory
+Powerbank
+Smart Home automation
+Smart Wearables
+Storage
+Tablets
+
+[[ATTACHMENT|test-results\flipkartlist-find-the-list-item-chromium\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
